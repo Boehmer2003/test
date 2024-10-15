@@ -3,8 +3,7 @@ nav:
   - Home: index.md
   - rules: code_rules.md
   - API Reference: api.md
-theme:
-  name: readthedocs
+theme: readthedocs
 # Define markdown extensions (optional)
 markdown_extensions:
   - toc:
