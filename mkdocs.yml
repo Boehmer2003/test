@@ -4,8 +4,7 @@ nav:
   - rules: code_rules.md
   - API Reference: api.md
 theme:
-  name: material
-
+  name: readthedocs
 # Define markdown extensions (optional)
 markdown_extensions:
   - toc:
