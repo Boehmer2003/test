@@ -1,0 +1,17 @@
+site_name: My Project Documentation
+nav:
+  - Home: index.md
+  - API Reference: api.md
+theme:
+  name: material
+
+# Define markdown extensions (optional)
+markdown_extensions:
+  - toc:
+      permalink: true
+
+# Set paths for documentation
+docs_dir: docs
+site_dir: site
+
+# Plugins and other MkDocs extensions can be added here
