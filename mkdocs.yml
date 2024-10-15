@@ -1,7 +1,7 @@
 site_name: My Project Documentation
 nav:
   - Home: index.md
-  - code rules:code_rules.md
+  - code rules: code_rules.md
   - API Reference: api.md
 theme:
   name: material
