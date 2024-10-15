@@ -1,4 +1,6 @@
-1.	 Header Boilerplate
+Header Boilerplate
+========================================
+
 •	Alle bronbestanden (.hpp en .cpp) moeten de voorgeschreven header bevatten.
 •	De header moet de volgende velden bevatten: bestandsnaam, product of subsysteem, originele auteur en een korte beschrijving.
 // ---------------------------------------------------------------------
