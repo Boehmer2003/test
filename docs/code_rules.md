@@ -21,7 +21,8 @@ Code Rules RvIHH
 // 
 // ---------------------------------------------------------------------
 ```
-1. Indentation
+
+2. Indentation
     -   Gebruik twee spaties voor inspringing.
     -   Het gebruik van tabs is verboden.
 ```
@@ -31,8 +32,7 @@ void Loop(int loops) {
 } 
 ```
 
-
-1. Single Line Comments
+3. Single Line Comments
     -   Gebruik // voor opmerkingen, in plaats van /* ... */.
     -   Voor grote stukken code: gebruik precompiler-voorwaarden (#ifdef of #if).
 
