@@ -23,11 +23,12 @@ Code Rules RvIHH
         ```
 2. Indentation
     -   Gebruik twee spaties voor inspringing.
-    -   Het gebruik van tabs is verboden.  
+    -   Het gebruik van tabs is verboden.
+      
         ```
-        > void Loop(int loops) { 
-        >   int result = 0; // twee spaties
-        >    result += 5; // vier spaties
+        void Loop(int loops) { 
+          int result = 0; // twee spaties
+            result += 5; // vier spaties
         } 
         ```
 
