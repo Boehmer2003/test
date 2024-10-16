@@ -24,12 +24,7 @@ Code Rules RvIHH
 2. Indentation
     -   Gebruik twee spaties voor inspringing.
     -   Het gebruik van tabs is verboden.
-```
-void Loop(int loops) { 
-  int result = 0; // twee spaties
-    result += 5; // vier spaties
-} 
-```
+
 3. Single Line Comments
     -   Gebruik // voor opmerkingen, in plaats van /* ... */.
     -   Voor grote stukken code: gebruik precompiler-voorwaarden (#ifdef of #if).
