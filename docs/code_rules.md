@@ -39,18 +39,18 @@ Code Rules RvIHH
     -   Voor grote stukken code: gebruik precompiler-voorwaarden (#ifdef of #if).
 
 4. Curly Braces
-    -   Opening accolade op dezelfde regel als de voorgaande statement.
-    -   Sluitende accolade op een nieuwe regel.
-    -   Voor if-else: else op dezelfde regel als de sluitende accolade van if.
+  -   Opening accolade op dezelfde regel als de voorgaande statement.
+  -   Sluitende accolade op een nieuwe regel.
+  -   Voor if-else: else op dezelfde regel als de sluitende accolade van if.
 
   ```
-    void Foo() {
-      if (i < 10) {
-        i += 10;
-    } else {
-        i -= 2;
-      }
+  void Foo() {
+    if (i < 10) {
+      i += 10;
+  } else {
+      i -= 2;
     }
+  }
   ```
 
 5. Curly Braces for Single-Line Blocks
