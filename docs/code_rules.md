@@ -2,8 +2,8 @@ Code Rules RvIHH
 ========================================
 
 1.  Header Boilerplate
-  - Alle bronbestanden (.hpp en .cpp) moeten de voorgeschreven header bevatten.
-  -	De header moet de volgende velden bevatten: bestandsnaam, product of subsysteem, originele auteur en een korte beschrijving.
+    - Alle bronbestanden (.hpp en .cpp) moeten de voorgeschreven header bevatten.
+    -	De header moet de volgende velden bevatten: bestandsnaam, product of subsysteem, originele auteur en een korte beschrijving.
   
     ```
       // ---------------------------------------------------------------------
