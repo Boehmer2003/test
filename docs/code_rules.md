@@ -43,8 +43,7 @@ Code Rules RvIHH
     -   Sluitende accolade op een nieuwe regel.
     -   Voor if-else: else op dezelfde regel als de sluitende accolade van if.
 
-        ```
-        void Foo() {
+        ```void Foo() {
           if (i < 10) {
             i += 10;
         } else {
