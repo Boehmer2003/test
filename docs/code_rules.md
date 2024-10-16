@@ -50,8 +50,7 @@ Code Rules RvIHH
         } else {
             i -= 2;
           }
-        }
-        ```
+        }```
 
 5. Curly Braces for Single-Line Blocks
     -   Gebruik altijd accolades, ook voor enkelvoudige regels code binnen een loop of voorwaardelijke statement.
@@ -65,7 +64,7 @@ Code Rules RvIHH
 6. Multiple Conditions
     -   Bij meerdere condities in één statement moeten de condities in haakjes worden gezet.
 
-        ```c++
+        ```
         if ((value == 5) || (stopped)) {
           DoSomeThing();
         }
@@ -74,7 +73,7 @@ Code Rules RvIHH
 7. Switch Cases
     -   Gebruik een switch-case om over een volledige enum te itereren.
 
-        ```c++
+        ```
         int foo(ExampleKey_e key) {
             switch(key) {
                 case ExampleKey_e::A: return 1;
@@ -87,13 +86,13 @@ Code Rules RvIHH
         ```
 
 8. Implicit Casts
-    -   Gebruik C++-casts zoals static_cast<>(). Vermijd C-stijl casts zoals (int)x.
+    -   Gebruik -casts zoals static_cast<>(). Vermijd C-stijl casts zoals (int)x.
     -   Gebruik (void) casts om aan te geven dat een variabele of argument niet wordt gebruikt.
 
 9. Pointer and Reference Declaration
     -   Plaats het * of & symbool bij het type, niet bij de variabelenaam.
 
-        ```c++
+        ```
         int* intExample;
         bool& boolExample;
         ```
@@ -102,7 +101,7 @@ Code Rules RvIHH
     -   De toegangsmodifiers (public, protected, private) worden gerangschikt van public naar private.
     -   Methoden en ledenvariabelen worden gescheiden.
 
-        ```c++
+        ```
         class Device {
         public:
             int publicMember {42};
@@ -117,8 +116,8 @@ Code Rules RvIHH
         };
         ```
 
-        ```c++
-        #methoden en ledenvariable gescheiden
+        ```
+        methoden en ledenvariable gescheiden
         class Example {
             public:
                 def GetName(){
@@ -136,7 +135,7 @@ Code Rules RvIHH
     -   Ordening van ledenvariabelen: built-ins eerst, dan custom types.
     -   de variable moeten ook op grooten geordend worden(bool, char, int, float, double)
 
-        ```c++
+        ```
         class Device {
         private:
           bool m_b {false};
@@ -149,7 +148,7 @@ Code Rules RvIHH
     -   Initialiseer variabelen via constructorargumenten, inline in de member definitie of via -   configuratievariabelen.
     -   Gebruik brace-initializers voor variabelen.
 
-        ```c++
+        ```
         class Counter {
         public:
           explicit Counter(unsigned int repeatFor = 1) : m_repeatFor{repeatFor} {}
@@ -163,9 +162,9 @@ Code Rules RvIHH
     -   Bibliotheekbestanden worden opgenomen met < >.
     -   Applicatiebestanden worden opgenomen met " ".
 
-        ```c++
-        #include "Buzzer.h"
-        #include <driver/ledc.h>
+        ```
+        include "Buzzer.h"
+        include <driver/ledc.h>
         ```
 
 14. Naming: Multiple Words
@@ -173,7 +172,7 @@ Code Rules RvIHH
     -   Variabelen beginnen met een kleine letter. (camelCase)
     -   Functies ,classes en structs beginnen met een hoofdletter(PascalCase).
 
-        ```c++
+        ```
         int roomTemperature;
         double drivingSpeed;
         char GetDefaultCharacter();
@@ -182,7 +181,7 @@ Code Rules RvIHH
 15. Member Variables Prefix
     -   Klasseleden krijgen de prefix m_.
 
-        ```c++
+        ```
         class Test {
         private:
           int m_value {};
@@ -192,7 +191,7 @@ Code Rules RvIHH
 16. Interface Names
     -   Interfacenamen worden voorafgegaan door de hoofdletter I_.
 
-        ```c++
+        ```
         class I_Test {
         public:
           virtual void FunctionToBeImplementedByDerivedClass() = 0;
@@ -202,7 +201,7 @@ Code Rules RvIHH
 17. File Names
     -   Bestandsnamen zijn gelijk aan de klasse die geïmplementeerd wordt.
 
-        ```c++
+        ```
         Type bestand Bestandsnaam
         Interface bestand I_MotorController.hpp
         Header bestand MotorController.hpp
@@ -212,7 +211,7 @@ Code Rules RvIHH
 18. Custom Types Naming
     -   Custom structs eindigen op t, custom enumerations op e.
 
-        ```c++
+        ```
         enum class MyEnum_e { VALUE_1, VALUE_2 };
         struct MyStruct_t { int m_member1 {}; };
         ```
@@ -220,7 +219,7 @@ Code Rules RvIHH
 19. Constant Values
     -   Constante waarden worden in hoofdletters geschreven, met underscores tussen woorden.
 
-        ```c++
+        ```
         const double BRAKING_FORCE = 12.1123;
         constexpr int MAX_ENTRIES = 5;
         ```
@@ -228,7 +227,7 @@ Code Rules RvIHH
 20. Template Parameters
     -   Templateparameters die constanten zijn, volgen de regels voor constante waarden.
 
-        ```c++
+        ```
         template<typename FuncType, int MAX_HANDLERS>
         class InterruptHandler {
         private:
