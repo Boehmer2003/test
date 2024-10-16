@@ -57,7 +57,7 @@ Code Rules RvIHH
 
         ```c++
         if (0 == nrOfItems) {
-        AddNewItem();
+          AddNewItem();
         }
         ```
 
@@ -66,7 +66,7 @@ Code Rules RvIHH
 
         ```c++
         if ((value == 5) || (stopped)) {
-        DoSomeThing();
+          DoSomeThing();
         }
         ```
 
@@ -138,9 +138,9 @@ Code Rules RvIHH
         ```c++
         class Device {
         private:
-        bool m_b {false};
-        std::uint8_t m_u8 {0};
-        CustomClass m_class;
+          bool m_b {false};
+          std::uint8_t m_u8 {0};
+          CustomClass m_class;
         };
         ```
  
@@ -151,10 +151,10 @@ Code Rules RvIHH
         ```c++
         class Counter {
         public:
-        explicit Counter(unsigned int repeatFor = 1) : m_repeatFor{repeatFor} {}
+          explicit Counter(unsigned int repeatFor = 1) : m_repeatFor{repeatFor} {}
         
         private:
-        unsigned int m_repeatFor {};
+          unsigned int m_repeatFor {};
         };
         ```
 
@@ -184,7 +184,7 @@ Code Rules RvIHH
         ```c++
         class Test {
         private:
-        int m_value {};
+          int m_value {};
         };
         ```
 
@@ -194,7 +194,7 @@ Code Rules RvIHH
         ```c++
         class I_Test {
         public:
-        virtual void FunctionToBeImplementedByDerivedClass() = 0;
+          virtual void FunctionToBeImplementedByDerivedClass() = 0;
         };
         ```
 
@@ -226,11 +226,11 @@ Code Rules RvIHH
 
 20. Template Parameters
     -   Templateparameters die constanten zijn, volgen de regels voor constante waarden.
-    
+
         ```c++
         template<typename FuncType, int MAX_HANDLERS>
         class InterruptHandler {
         private:
-        std::array<FuncType, MAX_HANDLERS> m_handlers {};
+          std::array<FuncType, MAX_HANDLERS> m_handlers {};
         };
         ```
