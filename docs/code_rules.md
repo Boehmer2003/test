@@ -26,12 +26,12 @@ Code Rules RvIHH
     -   Gebruik twee spaties voor inspringing.
     -   Het gebruik van tabs is verboden.
 
-        ```c++
-        void Loop(int loops) { 
-          int result = 0; // twee spaties
-            result += 5; // vier spaties
-        } 
-        ```
+      ```
+      void Loop(int loops) { 
+        int result = 0; // twee spaties
+          result += 5; // vier spaties
+      } 
+      ```
 
 3. Single Line Comments
     -   Gebruik // voor opmerkingen, in plaats van /* ... */.
@@ -42,7 +42,7 @@ Code Rules RvIHH
     -   Sluitende accolade op een nieuwe regel.
     -   Voor if-else: else op dezelfde regel als de sluitende accolade van if.
 
-        ```c++
+        ``
         void Foo() {
           if (i < 10) {
             i += 10;
@@ -50,16 +50,16 @@ Code Rules RvIHH
             i -= 2;
           }
         }
-        ```
+        ``
 
 5. Curly Braces for Single-Line Blocks
     -   Gebruik altijd accolades, ook voor enkelvoudige regels code binnen een loop of voorwaardelijke statement.
 
-        ```c++
-        if (0 == nrOfItems) {
-          AddNewItem();
-        }
-        ```
+    ``
+    if (0 == nrOfItems) {
+      AddNewItem();
+    }
+    ``
 
 6. Multiple Conditions
     -   Bij meerdere condities in één statement moeten de condities in haakjes worden gezet.
