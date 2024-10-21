@@ -60,7 +60,7 @@ void Foo() {
       AddNewItem();
     }
     ``
-#
+    -
 6. Multiple Conditions
     -   Bij meerdere condities in één statement moeten de condities in haakjes worden gezet.
 
