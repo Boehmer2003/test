@@ -1,4 +1,4 @@
-site_name: My Project Documentation
+site_name: RvIHH Project Documentatie
 nav:
   - Home: index.md
   - rules: code_rules.md
