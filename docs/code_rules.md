@@ -51,6 +51,7 @@ void Foo() {
   }
 }
 ```
+========================================
 5. Curly Braces for Single-Line Blocks
     -   Gebruik altijd accolades, ook voor enkelvoudige regels code binnen een loop of voorwaardelijke statement.
 
@@ -59,7 +60,7 @@ void Foo() {
       AddNewItem();
     }
     ``
-
+#
 6. Multiple Conditions
     -   Bij meerdere condities in één statement moeten de condities in haakjes worden gezet.
 
