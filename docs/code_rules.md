@@ -42,16 +42,16 @@ Code Rules RvIHH
     - Opening accolade op dezelfde regel als de voorgaande statement.
     - Sluitende accolade op een nieuwe regel.
     - Voor if-else: else op dezelfde regel als de sluitende accolade van if.
-```cpp
-void Foo() {
-  if (i < 10) {
-    i += 10;
-  } else {
-    i -= 2;
-  }
-}
-```
-~
+    ```cpp
+    void Foo() {
+      if (i < 10) {
+        i += 10;
+      } else {
+        i -= 2;
+      }
+    }
+    ```
+
 5. Curly Braces for Single-Line Blocks
     -   Gebruik altijd accolades, ook voor enkelvoudige regels code binnen een loop of voorwaardelijke statement.
 
